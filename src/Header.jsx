@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
-import { Apps, ArrowDropDown, Menu, Search } from '@mui/icons-material'
-import { IconButton } from '@mui/material'
+import { Apps, ArrowDropDown, Menu, Notifications, Search } from '@mui/icons-material'
+import { Avatar, IconButton } from '@mui/material'
 
 function Header() {
   return (
@@ -28,6 +28,11 @@ function Header() {
         <IconButton>
           <Apps />
         </IconButton>
+        <IconButton>
+          <Notifications />
+        </IconButton>
+
+        <Avatar />
       </div>
     </div>
   )
